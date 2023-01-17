@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
         val wallpaperManager = WallpaperManager.getInstance(this)
         thread {
             try {
+                Log.d("AppLog", "checking various WallpaperManager functions...")
                 val systemWallpaperFile: ParcelFileDescriptor? =
                     wallpaperManager.getWallpaperFile(WallpaperManager.FLAG_SYSTEM)
                 if (systemWallpaperFile != null) {

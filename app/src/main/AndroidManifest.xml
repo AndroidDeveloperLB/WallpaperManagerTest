@@ -4,7 +4,7 @@
     <!-- These permissions are to prove that MANAGE_EXTERNAL_STORAGE is required to get current wallpaper (image): https://issuetracker.google.com/issues/237124750   -->
     <uses-permission
         android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
-    <!-- In the past, READ_EXTERNAL_STORAGE could be used to get the current wallpaper, but it can't be used on Android when targeting it   -->
+    <!-- In the past, READ_EXTERNAL_STORAGE could be used to get the current wallpaper, but it can't be used on Android 13 when targeting it   -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
